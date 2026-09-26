@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+lxml
+pypdf
+pandas
+numpy
+sentence-transformers
+faiss-cpu
+chromadb
+rank-bm25
+scikit-learn
+streamlit
+pytest
