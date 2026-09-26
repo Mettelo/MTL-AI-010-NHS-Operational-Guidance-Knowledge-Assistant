@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw / processed documents
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+
+# Vector indexes
+indexes/*
+!indexes/.gitkeep
+
+# Local model / cache
+models/
+.cache/
+huggingface/
+
+# Chroma / vector DB
+chroma/
+chroma_db/
+
+# Ollama / large weights should remain outside repo
+*.gguf
+*.bin
+*.safetensors
+
+# Notebook
+.ipynb_checkpoints/
+
+# Temporary outputs
+outputs/tmp/
